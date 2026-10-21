@@ -91,3 +91,8 @@ async def mcp(request: Request) -> Any:
     except (KeyError, ValueError, TypeError) as exc:
         result = {"content": [{"type": "text", "text": str(exc)}], "isError": True}
     return {"jsonrpc": "2.0", "id": identifier, "result": result}
+
+
+# Distilled API discovery extensions (metadata-only)
+from .registry_api import router as discovery_router
+app.include_router(discovery_router)
