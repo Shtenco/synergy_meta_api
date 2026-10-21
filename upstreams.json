@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "name": "agentgateway",
+      "repository": "agentgateway/agentgateway",
+      "url": "https://github.com/agentgateway/agentgateway",
+      "category": "gateway",
+      "status": "not-installed",
+      "license": "verify-upstream"
+    },
+    {
+      "name": "mcp-gateway-registry",
+      "repository": "agentic-community/mcp-gateway-registry",
+      "url": "https://github.com/agentic-community/mcp-gateway-registry",
+      "category": "registry",
+      "status": "not-installed",
+      "license": "verify-upstream"
+    },
+    {
+      "name": "activepieces",
+      "repository": "activepieces/activepieces",
+      "url": "https://github.com/activepieces/activepieces",
+      "category": "automation",
+      "status": "not-installed",
+      "license": "verify-upstream"
+    },
+    {
+      "name": "registry",
+      "repository": "modelcontextprotocol/registry",
+      "url": "https://github.com/modelcontextprotocol/registry",
+      "category": "registry",
+      "status": "not-installed",
+      "license": "verify-upstream"
+    },
+    {
+      "name": "awesome-mcp-servers",
+      "repository": "punkpeye/awesome-mcp-servers",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "category": "catalog",
+      "status": "not-installed",
+      "license": "verify-upstream"
+    },
+    {
+      "name": "openapi-directory",
+      "repository": "APIs-guru/openapi-directory",
+      "url": "https://github.com/APIs-guru/openapi-directory",
+      "category": "catalog",
+      "status": "not-installed",
+      "license": "verify-upstream"
+    },
+    {
+      "name": "fastmcp",
+      "repository": "PrefectHQ/fastmcp",
+      "url": "https://github.com/PrefectHQ/fastmcp",
+      "category": "framework",
+      "status": "not-installed",
+      "license": "verify-upstream"
+    },
+    {
+      "name": "mcp-gateway",
+      "repository": "microsoft/mcp-gateway",
+      "url": "https://github.com/microsoft/mcp-gateway",
+      "category": "gateway",
+      "status": "not-installed",
+      "license": "verify-upstream"
+    },
+    {
+      "name": "litellm",
+      "repository": "BerriAI/litellm",
+      "url": "https://github.com/BerriAI/litellm",
+      "category": "llm-gateway",
+      "status": "not-installed",
+      "license": "verify-upstream"
+    },
+    {
+      "name": "gateway",
+      "repository": "Portkey-AI/gateway",
+      "url": "https://github.com/Portkey-AI/gateway",
+      "category": "llm-gateway",
+      "status": "not-installed",
+      "license": "verify-upstream"
+    },
+    {
+      "name": "composio",
+      "repository": "ComposioHQ/composio",
+      "url": "https://github.com/ComposioHQ/composio",
+      "category": "connectors",
+      "status": "not-installed",
+      "license": "verify-upstream"
+    },
+    {
+      "name": "pipedream",
+      "repository": "PipedreamHQ/pipedream",
+      "url": "https://github.com/PipedreamHQ/pipedream",
+      "category": "connectors",
+      "status": "not-installed",
+      "license": "verify-upstream"
+    },
+    {
+      "name": "n8n",
+      "repository": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "category": "automation",
+      "status": "not-installed",
+      "license": "verify-upstream"
+    },
+    {
+      "name": "kong",
+      "repository": "Kong/kong",
+      "url": "https://github.com/Kong/kong",
+      "category": "gateway",
+      "status": "not-installed",
+      "license": "verify-upstream"
+    },
+    {
+      "name": "tyk",
+      "repository": "TykTechnologies/tyk",
+      "url": "https://github.com/TykTechnologies/tyk",
+      "category": "gateway",
+      "status": "not-installed",
+      "license": "verify-upstream"
+    },
+    {
+      "name": "public-apis",
+      "repository": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "category": "catalog",
+      "status": "not-installed",
+      "license": "verify-upstream"
+    },
+    {
+      "name": "servers",
+      "repository": "modelcontextprotocol/servers",
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "category": "reference",
+      "status": "not-installed",
+      "license": "verify-upstream"
+    },
+    {
+      "name": "mcp-openapi",
+      "repository": "dx-corp/mcp-openapi",
+      "url": "https://github.com/dx-corp/mcp-openapi",
+      "category": "adapter",
+      "status": "not-installed",
+      "license": "verify-upstream"
+    }
+  ]
+}
