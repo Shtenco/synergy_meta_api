@@ -103,3 +103,7 @@ app.include_router(execution_router)
 
 from .catalog_api import router as public_catalog_router
 app.include_router(public_catalog_router)
+
+# Secure private loopback bridge to SYNERGY AI WORKSPACE.
+from .workspace_bridge_api import router as workspace_bridge_router
+app.include_router(workspace_bridge_router)
