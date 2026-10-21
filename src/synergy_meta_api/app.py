@@ -96,3 +96,7 @@ async def mcp(request: Request) -> Any:
 # Distilled API discovery extensions (metadata-only)
 from .registry_api import router as discovery_router
 app.include_router(discovery_router)
+
+# Built-in workflows and optional operator-configured HTTP connector
+from .execution_api import router as execution_router
+app.include_router(execution_router)
