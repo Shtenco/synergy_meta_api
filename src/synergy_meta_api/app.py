@@ -100,3 +100,6 @@ app.include_router(discovery_router)
 # Built-in workflows and optional operator-configured HTTP connector
 from .execution_api import router as execution_router
 app.include_router(execution_router)
+
+from .catalog_api import router as public_catalog_router
+app.include_router(public_catalog_router)
